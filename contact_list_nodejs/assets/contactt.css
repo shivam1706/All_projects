@@ -1,0 +1,122 @@
+body
+{
+   background-color: burlywood;
+
+}
+
+h1
+{
+     margin: 20px  auto 55px auto;
+     font-size: 55px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-weight: bold;
+     text-align: center;
+     word-spacing: 6px;
+     color: rgb(129, 33, 121)
+     
+}
+
+ul
+{
+     list-style: none;
+     
+
+}
+.details
+{
+     display: flex;
+     box-shadow: 1px 1px 1px 1px lightgray;
+     background-color: rgb(43, 92, 226);
+     height: 60px;
+     width:65%; 
+     margin: 10px auto;
+
+}
+
+
+.details .contact-row
+{
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+    justify-content: space-between;
+    width: 65%;
+}
+
+#phn
+{
+    margin-left: 10%; 
+}
+
+p{
+     font-size: 32px;
+     color: lightsalmon;
+     margin-right: 150px;
+     margin:8px ;
+     padding: 4px;
+
+}
+
+
+ .delete-button
+{
+   
+     height: 40px;
+     width: 40px;
+   padding: 3px;
+   margin-left: 200px;
+}
+.delete-button a{
+
+     background-color: red;
+     color: white;
+}
+
+.form-class
+{
+     display: flex;
+     margin-top: 40px auto auto auto;
+     justify-content: center;
+     align-items: center;
+     
+}
+#name
+{
+   margin: 30px 15px;
+   background-color: black;
+   color: brown;
+   border-radius: 10px;
+   height: 60px;
+   width: 150px;
+   font-size: 24px;
+   font-family: bold;
+   border:3px solid rgb(0, 150, 250) ;
+   padding: 4px;
+}
+#phone
+{
+     margin: 30px 15px;
+     background-color: black;
+     color: brown;
+     border-radius: 10px;
+     height: 60px;
+     width: 250px;
+     font-size: 24px;
+     font-family: bold;
+     border:3px solid rgb(0, 150, 250) ;
+     padding: 4px;
+}
+#btn
+{
+     margin: 30px 15px;
+     background-color: black;
+     color: brown;
+     border-radius: 10px;
+     height: 60px;
+     width: 150px;
+     font-size: 24px;
+     font-family: bold;
+     border:3px solid rgb(0, 150, 250) ;
+     padding: 4px;
+}
+
